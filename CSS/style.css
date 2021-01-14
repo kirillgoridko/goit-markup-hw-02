@@ -32,7 +32,7 @@ ul{
 .logo{
     color:var(--accent-color); 
     font-family: Raleway,cursive;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
@@ -85,16 +85,14 @@ ul{
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
-.button{
+.hero-button{
     color:var(--white-text-bg-color);
     background-color: var(--accent-color);
     
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    
     letter-spacing: 0.06em;
 
 }
@@ -149,20 +147,36 @@ ul{
     font-size: 14px;
     line-height: 1.7;
 }
+.site-contact .down:focus
 
 /* Portfolio.html */
-.button-portfolio:{
+
+.button:{
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     letter-spacing: inherit;
+    
     color: var(--title-text-color);
     background-color: var(--bg-team-color);
-
 }
-.button-potrfolio:hover, 
-.button-portfolio:focus{
+.button:hover, 
+.button:focus{
     color: var(--white-text-bg-color);
     background-color: var(--accent-color);
+}
+.work-title{
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+
+.work-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
 }
