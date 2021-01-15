@@ -53,7 +53,8 @@ ul{
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-.site-nav :hover,.site-nav:focus{
+.site-nav :hover,
+.site-nav :focus{
     color:var(--accent-color)
 }
 .site-nav .link.current {
@@ -69,7 +70,8 @@ ul{
     letter-spacing: 0.02em; 
     text-decoration: none;
 }
-.site-contact :hover,.site-contact:focus{
+.site-contact :hover,
+.site-contact :focus{
     color:var(--accent-color)
 }
 /* Hero */
@@ -142,13 +144,14 @@ ul{
     line-height: 1.7;
     font-style:normal ;
 }
-.site-contact .down{
+.site-contact .down :focus,
+.site-contact .down :hover{
     color: rgba(255, 255, 255, 0.6);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
 }
-.site-contact .down:focus
+
 
 /* Portfolio.html */
 
