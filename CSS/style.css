@@ -29,7 +29,9 @@ body{
 ul{
     list-style: none;
 }
+
 /* Logo */
+
 .logo{
     color:var(--accent-color); 
     font-family: Raleway,cursive;
@@ -45,7 +47,9 @@ ul{
     color: var(--white-text-bg-color);
 }
 /* site-nav */
-.site-nav .link {
+
+.site-nav .link, 
+.site-contact a{
     color: var(--title-text-color); 
     font-weight: 500;
     font-size: 14px;
@@ -62,25 +66,21 @@ ul{
 }
 
 /* site-contact */
+
 .site-contact a {
     color:var(--primary-text-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em; 
-    text-decoration: none;
 }
 .site-contact :hover,
 .site-contact :focus{
     color:var(--accent-color)
 }
 /* Hero */
+
 .hero{
     background-color: var(--bg-footer-color);
 }
 .hero-title{
     color: var(--white-text-bg-color);
-    
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -91,18 +91,16 @@ ul{
 .hero-button{
     color:var(--white-text-bg-color);
     background-color: var(--accent-color);
-    
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
-    
     letter-spacing: 0.06em;
-
 }
+
 /* section */
+
 .section-title{
     color: var(--title-text-color);
-
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -128,9 +126,10 @@ ul{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
-
 }
+
 /* footer */
+
 .footer{
     background-color: var(--bg-footer-color);
 }
@@ -161,7 +160,6 @@ ul{
     font-size: 16px;
     line-height: 1.6;
     letter-spacing: inherit;
-    
     color: var(--title-text-color);
     background-color: var(--bg-team-color);
 }
@@ -171,14 +169,12 @@ ul{
     background-color: var(--accent-color);
 }
 .work-title{
-
     font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
     color: var(--title-text-color);
 }
-
 .work-text{
     font-weight: 400;
     font-size: 16px;
