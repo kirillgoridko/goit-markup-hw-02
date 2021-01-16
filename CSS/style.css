@@ -52,8 +52,6 @@ ul{
 .site-contact a{
     color: var(--title-text-color); 
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
@@ -95,6 +93,7 @@ ul{
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 /* section */
@@ -139,22 +138,18 @@ ul{
 .map{
     color: var(--white-text-bg-color); 
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
     font-style:normal ;
 }
 .site-contact .down :focus,
 .site-contact .down :hover{
     color: rgba(255, 255, 255, 0.6);
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
 }
 
 
 /* Portfolio.html */
 
-.button:{
+.button{
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -162,6 +157,7 @@ ul{
     letter-spacing: inherit;
     color: var(--title-text-color);
     background-color: var(--bg-team-color);
+    cursor: pointer;
 }
 .button:hover, 
 .button:focus{
@@ -179,4 +175,8 @@ ul{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
+}
+.work-link{
+    text-decoration: none;
+    color: var(--primary-text-color);
 }
